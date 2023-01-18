@@ -1,7 +1,6 @@
 import pandas as pd
 import math
 from matplotlib import pyplot as plt
-import csv
 
 #----------------------------------------------------------------------------------------------
 #This Python file contains verious methods that are used to fit two curves, hubberts curve and
