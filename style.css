@@ -1,23 +1,23 @@
 .float-container {
-	margin : 20px 20px;
+	display: flex;
+	margin: 20px 20px;
 	border: 5px solid #000;
 	padding: 10px;
-	text-align : left;
+	text-align: left;
 }
 
-.float-child{
-	display: inline-block;
-	margin : 5px;
-    border : 2px solid red;
-   	padding: 10px;
-	vertical-align: top;
+.float-child {
+  flex: 0 0 17%; /* or use fixed width if needed, like flex: 0 0 50% */
+  margin: 5px;
+  border: 2px solid red;
+  padding: 10px;
 }		
-			
+
 p {
 	font-weight: bold;
 	margin : 10px
 }
-						
+
 h1 {
 	margin : 10px
 }
@@ -36,6 +36,8 @@ body {
 	justify-content: center;
 }
 
-#flag{
-	height : 100px;
+#flag {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
